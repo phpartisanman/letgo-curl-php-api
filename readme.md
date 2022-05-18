@@ -100,6 +100,8 @@ ile kontrol sağlamak faydalı olacaktır.
 
     $link_adres = "https://www.letgo.com/tr-tr/i/8e9a02c0-7bfb-4142-91e3-a0029adb422b";
     $letgo->stats($link_adres);
+    
+#### Profil bilgilerini güncellemek için
 
     if($letgo->isLogin()){
 	    // Bilgilerimi güncelle
